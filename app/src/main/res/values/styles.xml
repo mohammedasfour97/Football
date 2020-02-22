@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item><item name="android:typeface">serif</item>
+    </style>
+    <style name="AppCompat.Black.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="actionMenuTextColor">#ffff</item>
+        <item name="android:actionMenuTextColor">#ffff</item>
+    </style>
+
+    <style name="AppCompat.NoActionBar" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primary_dark_text</item>
+    </style>
+
+    <style name="TextAppearance.Title.White" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Expanded" parent="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextAppearance.Second" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Gets rid of the search icon -->
+        <item name="searchIcon">@drawable/ic_search</item>
+        <!-- Gets rid of the "underline" in the text -->
+        <item name="queryBackground">@color/white</item>
+        <!-- Gets rid of the search icon when the SearchView is expanded -->
+        <item name="searchHintIcon">@null</item>
+        <!-- The hint text that appears when the user has not typed anything -->
+        <item name="queryHint">@string/error_place</item>
+
+        <item name="android:editTextColor">@android:color/black</item>
+
+    </style>
+
+    <style name="TextAppearance.Second.Light" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondary_light</item>
+    </style>
+
+    <style name="TextAppearance.Highlight" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/highlight_text</item>
+    </style>
+
+    <style name="TextAppearance.Second.Dark" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary_dark_text</item>
+    </style>
+
+    <style name="TextAppearance.MainTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyThemeNoActionbar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <style name="EditTextTintTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimaryDark">#0288D1</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorControlActivated">#FFCC00</item>
+    </style>
+
+    <style name="Translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#03A9F4</item>
+        <item name="colorPrimaryDark">#FFCC00</item>
+        <item name="colorAccent">#4fa881</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#A3A3A3</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <!-- ToolBar -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:dropDownItemStyle">@style/myDropDownItemStyle</item>
+        <item name="android:dropDownListViewStyle">@style/myDropDownListViewStyle</item>
+    </style>
+
+
+    <style name="myDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="myDropDownListViewStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">#FFF</item>
+    </style>
+
+</resources>

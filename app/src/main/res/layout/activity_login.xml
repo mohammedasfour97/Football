@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activities.LoginActivity"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round2"
+            android:layoutDirection="rtl"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/round2"
+            android:text="@string/btn_login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_reset_password"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round2"
+            android:text="@string/btn_forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round2"
+            android:text="@string/btn_link_to_register"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+    <com.startapp.android.publish.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal" />
+
+</android.support.design.widget.CoordinatorLayout>

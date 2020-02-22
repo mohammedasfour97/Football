@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Footballawy</string>
+    <string name="search_player">ابحث عن لاعب</string>
+    <string name="search_team">ابحث عن فريق</string>
+    <string name="search_competation">ابحث عن دورة رباعية</string>
+    <string name="uncompletable_team">ابحث عن فريق غير مكتمل</string>
+    <string name="player">لاعب</string>
+    <string name="team">فريق</string>
+    <string name="competation">دورة رباعية</string>
+    <string name="build_your_team">انشئ فريقك</string>
+    <string name="leader_name">اسم قائد الفريق</string>
+    <string name="completed_team"> فريق مكتمل</string>
+    <string name="uncompleted_team">فريق غير مكتمل</string>
+    <string name="save">حفظ</string>
+    <string name="player_name">اسم اللاعب</string>
+    <string name="captain_name">اسم قائد الفريق</string>
+    <string name="cancel">الغاء</string>
+    <string name="call">اتصال</string>
+    <string name="search_team_hint">ابحث عن اسم قائد الفريق</string>
+    <string name="search_player_hint">ابحث عن اسم اللاعب</string>
+    <string name="self_rating">عفوا .. لا يمكن اعطاء تقييم لنفسك</string>
+    <string name="notice">تم حفظ بياناتك كلاعب بنجاح ! الان قم بملئ بيانات فريقك</string>
+    <string name="mante2a_name">أدخل اسم المنطقة باللغة العربية</string>
+    <string name="all_places">كل المناطق</string>
+    <string name="specific_place">منطقة معينة</string>
+    <string name="search">اضغط للبحث</string>
+    <string name="avavilable_days">الأيام المتاحة</string>
+    <string name="place">اسم المنطقة</string>
+    <string name="phone1">رقم الموبايل 1</string>
+    <string name="phone2">رقم الموبايل 2</string>
+    <string name="number_of_members">عدد أفراد الفريق</string>
+    <string name="create_player">المعلومات الشخصية</string>
+    <string name="visual">مرئى</string>
+    <string name="back2">العودة</string>
+    <string name="unvisual">غير مرئى</string>
+    <string name="no_results">لا يوجد نتائج</string>
+    <string name="my_team">تعديل بيانات فريقك</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="discription">فى حالة اختيار " مرئى " فانك سوف تظهر فى نتائج البحث عن اللاعبين</string>
+    <string name="discription2">فى حالة اختيار " مرئى " فان فريقك سوف يظهر فى نتائج البحث عن اللاعبين</string>
+    <string name="search_uncompleted">ابحث عن فريق مكتمل</string>
+
+    <string-array name="Egypt">
+        <item>القاهرة</item>
+        <item>الاسكندرية</item>
+        <item>الاسماعيلية</item>
+        <item>اسوان</item>
+        <item>اسيوط</item>
+        <item>الاقصر</item>
+        <item>البحر الاحمر</item>
+        <item>البحيرة</item>
+        <item>بنى سويف</item>
+        <item>بورسعيد</item>
+        <item>جنوب سيناء</item>
+        <item>الجيزة</item>
+        <item>الدقهلية</item>
+        <item>دمياط</item>
+        <item>سوهاج</item>
+        <item>السويس</item>
+        <item>الشرقية</item>
+        <item>شمال سيناء</item>
+        <item>الغربية</item>
+        <item>الفيوم</item>
+        <item>القليوبية</item>
+        <item>قنا</item>
+        <item>كفر الشيخ</item>
+        <item>مطروح</item>
+        <item>المنوفية</item>
+        <item>المنيا</item>
+        <item>الوادى الجديد</item>
+    </string-array>
+
+    <string-array name="position">
+        <item>كل المراكز</item>
+        <item>حارس مرمى</item>
+        <item>دفاع</item>
+        <item>خط وسط</item>
+        <item>جناح أيمن</item>
+        <item>جناح أيسر</item>
+        <item>رأس حربة</item>
+    </string-array>
+
+    <string name="error_place">قم بادخال اسم المنطقة</string>
+    <string name="error_phone1">قم بادخال رقم الموبايل</string>
+    <string name="error_name">قم بادخال اسم قائد الفريق</string>
+    <string name="error_number_of_members">قم بادخال عدد أفراد الفريق</string>
+    <string name="error_complete_team">قم باختيار "فريق مكتمل"</string>
+    <string name="saturday">السبت</string>
+    <string name="sunday">الاحد</string>
+    <string name="monday">الاثنين</string>
+    <string name="tuesday">الثلاثاء</string>
+    <string name="wednesday">الأربعاء</string>
+    <string name="thursday">الخميس</string>
+    <string name="friday">الجمعة</string>
+    <string name="all_week">طوال الأسبوع</string>
+    <string name="action_sign_in_short">سجل</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="minimum_password">كلمة المرور قصيرة.أدخل 6 أحرف على الأقل !</string>
+    <string name="auth_failed">فشل فى التسجيل.تأكد من البريد الالكترونى أو كلمة المرور</string>
+    <string name="change_email">تغيير البريد الالكترونى</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="remove_user">إزالة المسنخدم</string>
+    <string name="new_pass">كلمة مرور جديدة</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="hint_email">البريد الاكترونى</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="repeat_password">اعادة كلمة المرور</string>
+    <string name="phone_number">رقم الموبايل</string>
+    <string name="hint_name">الاسم بالكامل</string>
+    <string name="btn_login">تسجيل دخول</string>
+    <string name="btn_link_to_register">أول مرة ؟ قم بالتسجيل الان</string>
+    <string name="btn_link_to_login">لديك حساب ؟ سجل دخول الان</string>
+    <string name="Enter_email_address">!أدخل عنوان البريد الالكترونى</string>
+    <string name="nter_password">!ادخل كلمة السر</string>
+    <string name="repeatedpass">!اعادة كتابة كلمة سر صحيحة</string>
+    <string name="Passwordtooshortenterminimumcharacters">!كلمة السر قصيرة جدا,أدخل 6 أحرف على الأقل</string>
+    <string name="title_activity_reset_password">استعادة كلمة المرور</string>
+    <string name="btn_forgot_password">نسيت كلمة المرور ؟</string>
+    <string name="btn_reset_password">استعادة كلمة المرور</string>
+    <string name="btn_back"><![CDATA[<< العودة]]></string>
+    <string name="hint_new_email">البريد الاكترونى الجديد</string>
+    <string name="btn_change">تغيير</string>
+    <string name="btn_send">ارسال</string>
+    <string name="register">تسجيل</string>
+    <string name="my_data">تعديل بياناتك الشخصية</string>
+    <string name="btn_remove">مسح</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="position">المركز</string>
+    <string name="btn_sign_out">تسجيل الخروج</string>
+    <string name="lbl_forgot_password">نسيت كلمة المرور</string>
+    <string name="button_login_with_google">تسجيل دخول بواسطة جوجل</string>
+    <string name="competation_text1">انتظر منظومة الدورة الرباعية فى الاصدار الجديد القادم .... قريبا</string>
+    <string name="competation_text2">عن طريق منظومة الدورة الرباعية سوف تستطيع اقامة دورة رباعية تنافسية و البحث عن أقرب الدورات المقامة بمحافظتك أو منطقتك و الالتحاق بها</string>
+</resources>
+

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Activities.MainActivity">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:padding="5dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.029999971" />
+
+        <LinearLayout
+            android:id="@+id/player"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/player" />
+
+            <TextView
+                android:id="@+id/splayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/player"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/team"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/team" />
+
+            <TextView
+                android:id="@+id/steam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/team"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/competation"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.71000004">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/cycle" />
+
+            <TextView
+                android:id="@+id/cycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/competation"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Logout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round2"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="@string/btn_sign_out"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/contact_us"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/round2"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="@string/contact_us"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+        </Button>
+
+    </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/findus"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/findusonfacebook" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/whatsapp" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_call_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01205184638"
+            android:textColor="#000"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/email"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_email_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mohammedasfour50@gmail.com"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <com.startapp.android.publish.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal" />
+
+</android.support.design.widget.CoordinatorLayout>
